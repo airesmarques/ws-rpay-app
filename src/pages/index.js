@@ -13,15 +13,20 @@ const IndexPage = () => (
     <p>Now go build something great.</p>
     <StaticImage
       src="../images/WashStation-icon.png"
-      width={300}
+      width={150}
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="WashStation"
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
+      <Link to="https://wslavapaga.washstation.xyz/api/payrequest?mc=L01-05">Continuar</Link> <br />
     </p>
+    <script>
+    
+    
+    </script>
+
   </Layout>
 )
 
